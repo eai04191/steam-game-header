@@ -43,10 +43,10 @@ Since this script displays the game at the time of loading, it can not detect st
 
 So, there is an option to automatically update.
 
-When reflash parameter (unit: minute) is added to URL, it is automatically updated after the specified time.
+When `refresh` parameter (unit: minute) is added to URL, it is automatically updated after the specified time.
 
 ```
-https://eai04191.github.io/steam-game-header/?key=YOUR_API_KEY&steamid=YOUR_STEAM_64_ID&reflash=5
+https://eai04191.github.io/steam-game-header/?key=YOUR_API_KEY&steamid=YOUR_STEAM_64_ID&refresh=5
 ```
 
 This URL is updated automatically every 5 minutes.
